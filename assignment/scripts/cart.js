@@ -46,7 +46,16 @@ console.log(basket);
 
 // array.splice(0, array.length);
 
+const maxItems = 5;
 
+function isFull(array) {
+    if (array >= maxItems) {
+        return true;
+    } else {
+        return false;
+    }
+}
+isFull(basket);
 
 
 // DO NOT MODIFY
